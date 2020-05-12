@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="anchor" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.logincontroller">
+   <children>
+      <AnchorPane layoutX="300.0" layoutY="20.0" prefHeight="357.0" prefWidth="274.0" style="-fx-background-color: #ffff;">
+         <children>
+            <Text layoutX="112.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOGIN">
+               <font>
+                  <Font name="Candara Bold" size="18.0" />
+               </font>
+            </Text>
+            <JFXButton layoutX="100.0" layoutY="194.0" onAction="#clickingoflogin" style="-fx-background-color: #455ab0;" text="LOGIN">
+               <font>
+                  <Font name="Candara Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <Text layoutX="32.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Don't have an account?">
+               <font>
+                  <Font name="Candara Bold" size="14.0" />
+               </font>
+            </Text>
+            <JFXButton layoutX="193.0" layoutY="258.0" onAction="#clickingofsignup" style="-fx-background-color: #455ab0;" text="SIGN UP">
+               <font>
+                  <Font name="Candara Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <JFXPasswordField fx:id="txtPassword" layoutX="45.0" layoutY="143.0" prefHeight="26.0" prefWidth="183.0" promptText="password" />
+            <JFXTextField fx:id="tf_Username" layoutX="45.0" layoutY="96.0" prefHeight="26.0" prefWidth="183.0" promptText="username/email" />
+         </children>
+      </AnchorPane>
+      <Text fill="#181819" layoutX="49.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TOTAL PAISA" wrappingWidth="183.20001220703125">
+         <font>
+            <Font name="Candara Bold" size="32.0" />
+         </font>
+         <effect>
+            <DropShadow color="#3b529f" />
+         </effect>
+      </Text>
+      <Text fill="#1f1f21" layoutX="29.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOME!!!!" wrappingWidth="183.20001220703125">
+         <font>
+            <Font name="Candara Bold" size="28.0" />
+         </font>
+         <effect>
+            <DropShadow color="#3f42bf" />
+         </effect>
+      </Text>
+      <Text fill="#28273e" layoutX="29.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Plan your expenditure here" wrappingWidth="224.00003051757812">
+         <font>
+            <Font name="Candara Bold" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow color="#393bba" />
+         </effect>
+      </Text>
+   </children>
+</AnchorPane>

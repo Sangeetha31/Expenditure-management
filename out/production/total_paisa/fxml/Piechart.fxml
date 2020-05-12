@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Piechart">
+   <children>
+      <PieChart fx:id="Piechart" layoutX="50.0" />
+      <Button layoutX="274.0" layoutY="322.0" mnemonicParsing="false" onAction="#showpiechart" style="-fx-background-radius: 20; -fx-background-color: black;" text="Show" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="492.0" layoutY="43.0" mnemonicParsing="false" onAction="#backbutton" text="Back" />
+   </children>
+</AnchorPane>
